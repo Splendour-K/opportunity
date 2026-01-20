@@ -12,6 +12,13 @@ const badgeVariants = cva(
         secondary: "border-transparent bg-secondary text-secondary-foreground hover:bg-secondary/80",
         destructive: "border-transparent bg-destructive text-destructive-foreground hover:bg-destructive/80",
         outline: "text-foreground",
+        scholarship: "border-transparent bg-info/10 text-info",
+        job: "border-transparent bg-success/10 text-success",
+        grant: "border-transparent bg-accent/10 text-accent",
+        program: "border-transparent bg-primary/10 text-primary",
+        urgent: "border-transparent gradient-urgent text-primary-foreground animate-pulse-soft",
+        warning: "border-transparent bg-warning/10 text-warning",
+        new: "border-transparent gradient-new text-primary-foreground",
       },
     },
     defaultVariants: {
